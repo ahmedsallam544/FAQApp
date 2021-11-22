@@ -1,0 +1,6 @@
+<AddQuestionComponent (questionadded)="addQuestion($event)"
+></AddQuestionComponent>
+<QuestionComponent 
+*ngFor="let question of questions " 
+[question]="question"
+></QuestionComponent>
